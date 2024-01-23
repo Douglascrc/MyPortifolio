@@ -31,11 +31,10 @@
   font-size: 1rem;
   font-weight: 500;
   display: flex;
-  align-items: center;
   justify-content: center;
   color: #fff;
   background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 1rem;
   border: none;
   outline: 1.3px solid transparent;
   border-radius: 0.2rem;
@@ -49,3 +48,31 @@
   outline: 1.5px solid #a993fe;
 }
 
+.menu-btn:hover {
+  color: #a993fe;
+  background: #000;          
+  outline: 1.5px solid #a993fe;
+}
+
+@media (max-width:425px) {
+  .nav-wrapper img {
+    width: 3rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 769px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-wrapper ul {
+    display: none;
+  }
+}
+
+@media (max-width:1325) {
+  .nav-wrapper {
+    padding: 0 2rem;
+  }
+}
