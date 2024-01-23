@@ -1,12 +1,16 @@
+import { blue } from "@mui/material/colors";
 import "./Navbar.css"
+
+import MenuIcon from '@mui/icons-material/Menu';
+
 
 const Navbar = () => {
     return (
         <nav className="bg-black/20 top-0 sticky p-2 backdrop-blur-3xl z-30">
-            <div className="max-w-screen-xl flex items-center justify-between pt-1">
+            <div className=" nav-wrapper max-w-screen-xl flex items-center justify-between pt-1">
                 <img className="w-12 h-16" src="../public/vite.svg" />
 
-                <ul className="flex gap-3.5">
+                <ul className="flex gap-4">
 
                     <li>
                         <a className="menu-item" href="">Home</a>   
@@ -26,6 +30,16 @@ const Navbar = () => {
                     </button>
 
                 </ul>
+
+                <button className="menu-btn bg-gradient-to-r from-violet-500 to-fuchsia-500 flex justify-center w-10 h-10 text-2xl rounded-md " onClick={() => {}}> 
+                <span>
+                <MenuIcon fontSize="large"  /> 
+                </span>
+                   
+                         
+
+                    
+                </button>
             </div>
         </nav>
     );
