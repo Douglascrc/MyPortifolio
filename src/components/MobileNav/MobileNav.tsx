@@ -5,7 +5,7 @@ const MobileNav = ({isOpen, toggleMenu}: { isOpen: boolean, toggleMenu: () => vo
         <div
             className={`mobile-menu ${isOpen ? "active": ""}`} onClick={toggleMenu}>
             
-            <div className="">
+            <div className="h-screen w-7/12 p-2 bg-black">
                 <img src="../public/vite.svg" alt="logo vite" />
 
                 <ul className="flex gap-4">
