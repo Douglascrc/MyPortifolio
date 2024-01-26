@@ -1,0 +1,18 @@
+.mobile-menu {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 29px 80px rgba(0, 0, 0, 0.3);
+    transition: all 0.3 ease;
+    transform: translateX(-100vw);
+}
+
+.mobile-menu.active {
+    opacity: 1;
+    transform: translateX(0);
+}
