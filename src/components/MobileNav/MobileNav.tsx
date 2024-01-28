@@ -1,14 +1,14 @@
-import React from "react"
+import "./MobileNav.css"
 
 const MobileNav = ({isOpen, toggleMenu}: { isOpen: boolean, toggleMenu: () => void }) => {
     return (
         <div
             className={`mobile-menu ${isOpen ? "active": ""}`} onClick={toggleMenu}>
             
-            <div className="h-screen w-7/12 p-2 bg-black">
-                <img src="../public/vite.svg" alt="logo vite" />
+            <div className="h-screen w-3/5 p-8 bg-black">
+                <img className="mb-" src="../public/vite.svg" alt="logo vite" />
 
-                <ul className="flex gap-4">
+                <ul className="flex flex-col gap-4 -ml-4">
 
                     <li>
                         <a className="menu-item" href="">Home</a>   
