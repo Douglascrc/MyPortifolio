@@ -62,10 +62,6 @@
 }
 
 @media (max-width: 769px) {
-  .menu-btn {
-    display: block;
-  }
-
   .nav-wrapper ul {
     display: none;
   }
