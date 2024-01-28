@@ -6,7 +6,8 @@
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 999;
+    opacity: 0;
+    z-index: 999 !important;
     box-shadow: 0 29px 80px rgba(0, 0, 0, 0.3);
     transition: all 0.3 ease;
     transform: translateX(-100vw);
@@ -15,4 +16,10 @@
 .mobile-menu.active {
     opacity: 1;
     transform: translateX(0);
+}
+
+@media (max-width:769px) {
+    .mobile-menu {
+        display: block;
+    }
 }
