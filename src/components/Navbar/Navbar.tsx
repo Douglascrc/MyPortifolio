@@ -2,6 +2,7 @@ import { useState } from "react"
 import "./Navbar.css"
 import MenuIcon from '@mui/icons-material/Menu'
 import MobileNav from "../MobileNav/MobileNav"
+import CloseIcon from '@mui/icons-material/Close';
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false)
@@ -41,8 +42,7 @@ const Navbar = () => {
 
                 <button className="menu-btn bg-gradient-to-r from-violet-500 to-fuchsia-500 flex justify-center w-10 h-10 text-2xl rounded-md ease-in duration-300 md:hidden" onClick={toggleMenu}> 
                 <span>
-                <MenuIcon fontSize="large"  /> 
-                {openMenu ? "" : ""}
+                {openMenu ? <CloseIcon fontSize="large"/> : <MenuIcon fontSize="large"/> }
                 </span>
                    
                          
