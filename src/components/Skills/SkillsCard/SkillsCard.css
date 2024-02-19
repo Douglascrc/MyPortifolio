@@ -1,0 +1,16 @@
+.skill-card:hover,
+.skill-card.active {
+    background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
+}
+
+.skill-card {
+    border: solid 0.65rem #7c5fe6;
+    border-radius: 0.75rem;
+    padding: 2.5rem;
+    text-align: center;
+    background: rgba(22, 17, 47, 0.398);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
