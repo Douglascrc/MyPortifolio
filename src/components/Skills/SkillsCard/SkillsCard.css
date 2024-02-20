@@ -4,7 +4,7 @@
 }
 
 .skill-card {
-    border: solid 0.65rem #7c5fe6;
+    border: solid 0.25rem #7c5fe6;
     border-radius: 0.75rem;
     padding: 2.5rem;
     text-align: center;
@@ -13,4 +13,30 @@
     position: relative;
     cursor: pointer;
     transition: all ease 0.3s;
+}
+
+@media (max-width:1025px) {
+    
+    .skill-card {
+        padding: 2rem;
+    }
+
+    .skill-card span {
+        font-size: 1rem;
+    }
+
+    .skill-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    .skill-icon img {
+        width: 1.8rem;
+    }
+}
+
+@media (max-width:768px) {
+    
+    .skill-card span {
+        
+    }
 }
