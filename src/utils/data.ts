@@ -37,3 +37,20 @@ export const SKILLS  = [
         ],
     },
 ]
+
+export const WORK_EXPERIENCE = [
+    {
+        title: "RIS/PACS systems developer apprentice at Rede D'or",
+        date: "October 2023 - Present",
+        responsibilities:[
+            "Training on the RIS/PACS system and tools such as Docker, updating documentation for Troubleshooting and monitoring RDMs",
+        ],
+    },
+    {
+        title: "Barbearia",
+        date: "January 2024 - March 2024",
+        responsibilities:[
+            "Website that offers several different barbershop services, the user is authenticated using OAuth, Google's API, so they can book their service.",
+        ],
+    },
+]

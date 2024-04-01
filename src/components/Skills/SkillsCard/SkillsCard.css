@@ -37,6 +37,6 @@
 @media (max-width:768px) {
     
     .skill-card span {
-        
+        font-size: 0.9rem;
     }
 }
