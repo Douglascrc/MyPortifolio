@@ -3,7 +3,8 @@ import "./Navbar.css"
 import MenuIcon from '@mui/icons-material/Menu'
 import MobileNav from "./MobileNav/MobileNav"
 import CloseIcon from '@mui/icons-material/Close';
-
+import Vite from "../public/vite.svg"
+ 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false)
 
@@ -17,7 +18,7 @@ const Navbar = () => {
 
         <nav className="bg-black/20 top-0 sticky p-2 backdrop-blur-3xl z-30">
             <div className=" nav-wrapper max-w-screen-xl flex items-center justify-between pt-1">
-                <img className="w-12 h-16" src="../public/vite.svg" />
+                <img className="w-12 h-16" src={Vite}/>
 
                 <ul className="flex gap-4">
 
