@@ -1,5 +1,3 @@
-import "./ExperienceCard.css"
-
 interface ExperienceDetails {
     title: string;
     date: string;
