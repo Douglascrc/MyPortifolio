@@ -6,7 +6,7 @@ import Soft from "src/assets/softskills.svg"
 export const SKILLS  = [
     {
         title: "Frontend",
-        icon: {Frontend},
+        icon: Frontend,
         skills: [
             {skill:"HTML5", percentagem: "90%"},
             {skill:"CSS3", percentagem:"80%"},
@@ -16,7 +16,7 @@ export const SKILLS  = [
     },
     {
         title:"Backend",
-        icon: {Backend},
+        icon: Backend,
         skills: [
             {skill:"NodeJS", percentagem:"70%"},
             {skill:"ExpressJS", percentagem:"60%"},
@@ -25,7 +25,7 @@ export const SKILLS  = [
     },
     {
         title: "Tools",
-        icon: {Tools},
+        icon: Tools,
         skills: [
             {skill:"Git & GitHub", percentagem:"50%"},
             {skill:"VSCODE", percentagem:"60%"},
@@ -34,7 +34,7 @@ export const SKILLS  = [
     },
     {
         title: "Soft Skills",
-        icon: {Soft},
+        icon: Soft,
         skills: [
             {skill:"Problem-solved", percentagem:"100%"},
             {skill:"Collaboration", percentagem:"100%"},
