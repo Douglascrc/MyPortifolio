@@ -1,5 +1,5 @@
 import "./MobileNav.css"
-import Vite from "../public/vite.svg"
+import Vite from "../../../../public/vite.svg"
 
 const MobileNav = ({isOpen, toggleMenu}: { isOpen: boolean, toggleMenu: () => void }) => {
     return (
