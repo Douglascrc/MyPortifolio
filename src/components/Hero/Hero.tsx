@@ -1,5 +1,5 @@
 import './Hero.css'
-import Profile from "../src/assets/pfl3.png"
+import Profile from "../../assets/pfl3.png"
 
 const Hero = () => {
     return (
