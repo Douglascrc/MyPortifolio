@@ -3,7 +3,7 @@ import "./Navbar.css"
 import MenuIcon from '@mui/icons-material/Menu'
 import MobileNav from "./MobileNav/MobileNav"
 import CloseIcon from '@mui/icons-material/Close';
-import Vite from "../public/vite.svg"
+import Vite from "../../../public/vite.svg"
  
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false)
