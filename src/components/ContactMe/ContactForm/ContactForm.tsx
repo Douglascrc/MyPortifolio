@@ -1,6 +1,6 @@
 const ContactForm = () => {
     return ( 
-        <div className="w-[100%]">
+        <div id="contactme" className="w-[100%]">
             <form className="flex flex-col gap-6" action="">
                 <div className="flex items-center gap-6 ">
                     <input className="flex-1 w-[100%] p-4 text-sm bg-[#130f2a] rounded-lg border-2 border-[#6751b9]" type="text" name="firstname" placeholder="First Name" />

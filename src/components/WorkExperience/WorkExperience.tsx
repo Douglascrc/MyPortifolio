@@ -38,7 +38,7 @@ const WorkExperience = () => {
     }
 
     return ( 
-        <section className="experience-container relative mx-16 my-16">
+        <section id="experience" className="experience-container relative mx-16 my-16">
             <h5 className="font-semibold text-2xl mb-12">Work Experience</h5>
 
             <div className="experience-content">

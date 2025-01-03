@@ -3,11 +3,11 @@ import Profile from "../../assets/pfl3.png"
 
 const Hero = () => {
     return (
-        <section className='hero-container flex relative items-center ml-8 '>
+        <section id='home' className='hero-container flex relative items-center ml-8 my-6'>
             <div className='hero-content flex-1'>
-                <h1 className='font-bold text-8xl mb-4'> Software Developer</h1>
-                <p className='text-base text-center font-normal w-4/5'>
-                    Studying technologies for development
+                <h1 className='font-bold text-center text-8xl mb-4'> Programador</h1>
+                <p className='font-semibold text-end w-4/5'>
+                    Programando soluções para o seu negócio.
                 </p>
             </div>
 

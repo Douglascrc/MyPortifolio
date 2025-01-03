@@ -9,7 +9,7 @@ const ContactMe = () => {
 
             <div className="contact-content flex gap-12">
                 <div style={{flex:1}}>
-                    <ContactInfoCard iconUrl={Mail} text={"douglasbuscam@gmail.com"} link={"mailto:douglasbuscam@gmail.com"}/>
+                    <ContactInfoCard iconUrl={Mail} text={"douglascamdev@hotmail.com"} link={"douglascamdev@hotmail.com"}/>
                     <ContactInfoCard iconUrl={"https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-github-with-cat-logo-an-online-community-for-software-development-logo-bold-tal-revivo.png"}text={"Douglascrc"} link={"https://github.com/Douglascrc"}/>
                 </div>
                 <div style={{flex:1}}>
