@@ -1,5 +1,5 @@
 import './Hero.css'
-import Profile from "../../assets/pfl3.png"
+import Profile from "../../assets/douglas.jpg"
 
 const Hero = () => {
     return (
@@ -20,7 +20,7 @@ const Hero = () => {
                     <div className='tech-icon w-24 h-24 items-center justify-center flex text-center border border-solid border-[#6852ba] rounded-xl'>
                        <img className='w-16 transition-all ease-in duration-300 hover:-translate-y-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt='' />
                     </div>
-                    <img className='w-96 rounded-full transition-all ease-in duration-300 hover:-translate-y-2' src={Profile} alt="" />
+                    <img className='w-96 h-96 p-2  rounded-full  ease-in duration-300 hover:-translate-y-2' src={Profile} alt="" />
 
                 </div>
 
